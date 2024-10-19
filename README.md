@@ -16,5 +16,6 @@ HTML
 Coloquio final
 ## Tecnologías
 [A-Frame](https://aframe.io/)  
+[Visual Studio Code](https://code.visualstudio.com/)  
 [Git](https://git-scm.com/downloads)  
 [Godot](https://godotengine.org/)  
