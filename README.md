@@ -1,7 +1,7 @@
 # uea-4
 Estética y prácticas del arte digital contemporáneo
 ## Semana 1
-HTML  
+HTML [w3schools](https://www.w3schools.com/html/default.asp)  
 ## Semana 2
 
 ## Semana 3
