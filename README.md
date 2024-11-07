@@ -1,5 +1,6 @@
 # uea-4
-Estética y prácticas del arte digital contemporáneo. Unidad 3.
+Estética y prácticas del arte digital contemporáneo. Unidad 3.  
+La calse 5 hiciemos un ejercicio con entidades enn la arquitectura **ECS** de Aframe.
 ## Semana 1
 Introducción a HTML  
 [w3schools](https://www.w3schools.com/html/default.asp)  
