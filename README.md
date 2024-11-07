@@ -1,5 +1,5 @@
 # uea-4
-Estética y prácticas del arte digital contemporáneo
+Estética y prácticas del arte digital contemporáneo. Unidad 3.
 ## Semana 1
 Introducción a HTML  
 [w3schools](https://www.w3schools.com/html/default.asp)  
