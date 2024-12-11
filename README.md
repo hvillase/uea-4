@@ -17,7 +17,9 @@ Introducción a A-Frame
 ## Semana 6
 Coloquio 1
 ## Semana 7
+Nav-mesh  
 ## Semana 8
+Contenidos: texto, video y sonido  
 ## Semana 9
 ## Semana 10
 ## Semana 11
