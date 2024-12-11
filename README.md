@@ -13,11 +13,14 @@ Introducción a A-Frame
 [Git](https://git-scm.com/)  
 [MarkDown](https://daringfireball.net/projects/markdown/)
 ## Semana 4
+ECS  
 ## Semana 5
+Texto en 3D  
 ## Semana 6
 Coloquio 1
 ## Semana 7
 Nav-mesh  
+[Blender](https://www.blender.org/)  
 ## Semana 8
 Contenidos: texto, video y sonido  
 ## Semana 9
