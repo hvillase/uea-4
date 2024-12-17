@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonido</title>
+    <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@7.5.2/dist/aframe-extras.min.js"></script>
+
+</head>
+<body>
+    <script>
+        AFRAME.registerComponent('controlaudio', {
+            init: function(){
+                let botonControl= this.el;
+                botonControl.addEventListener('click', function (ev){
+                    let metodo = ev.srcElement.id;
+
+                    console.log(metodo);
+
+                    let bocina = document.querySelector('#paisaje');
+
+                    if(metodo =="play"){
+                        bocina.components.sound.playSound();
+                    }
+                    if(metodo =="pause"){
+                        bocina.components.sound.pauseSound();
+                    }
+                    if(metodo =="stop"){
+                        bocina.components.sound.stopSound();
+                    }
+                });
+            }
+        });
+    </script>
+
+    <a-scene>
+        <!--sistema de gestión de assets-->
+        <a-assets>
+            <audio id="patos" src="assets/sonido/paisaje1.mp3" preload="auto"></audio>
+        </a-assets>
+
+        <!--jugador-->
+        <a-camera>
+            <a-cursor></a-cursor>
+        </a-camera>
+
+        <!--sonido-->
+        <a-entity id="paisaje" geometry="primitive: plane" material="color: blue"
+          position="0 1 -4" sound="src: #patos;"></a-entity>
+
+          <!--controles-->
+          <a-box id="play" color="red" position="-1 0.2 -4" scale="0.3 0.3 0.3" controlaudio></a-box>
+          <a-box id="pause" color="green" position="0 0.2 -4" scale="0.3 0.3 0.3" controlaudio></a-box>
+          <a-box id="stop" color="violet" position="1 0.2 -4" scale="0.3 0.3 0.3" controlaudio></a-box>
+    </a-scene>
+</body>
+</html>

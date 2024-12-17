@@ -32,4 +32,5 @@ Coloquio final
 [Visual Studio Code](https://code.visualstudio.com/)  
 [Git](https://git-scm.com/downloads)  
 [Godot](https://godotengine.org/)  
-[Simple Web Server](https://simplewebserver.org/)
+[Simple Web Server](https://simplewebserver.org/)  
+[Blender](https://www.blender.org/)  
