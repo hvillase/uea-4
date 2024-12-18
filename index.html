@@ -10,8 +10,23 @@
 </head>
 <body>
     <a-scene>
-        <a-entity geometry="primitive:cone;" material="color:#001E07" position="0 0.7 -4" scale="1 2 3" rotation="0 2 0"></a-entity>
         <a-entity environment="preset: egypt; dressingAmount: 500; ground:spikes;"></a-entity>
+
+        
+
+        <!--assets-->
+        <a-assets>
+
+        </a-assets>
+        
+        <!--camara-->
+        <a-camera>
+            <a-cursor></a-cursor>
+        </a-camera>
+
+        <!--figuras-->
+        <a-entity geometry="primitive: cone;" material="color: #001E07" position="0 0.7 -4" scale="1 2 3" rotation="0 2 0"></a-entity>
+        <a-entity geometry="primitive: box;" material="color: #aaff00" position="0.5 0.9 -3"></a-entity>
     </a-scene>
 </body>
 </html>
